@@ -11,7 +11,7 @@ After creating a beta test module for searching vacation spots by temperature, w
 ### Analysis of Weather Data Retrieval
 API call was used to retrieve weather data and current weather description from OpenWeatherMap to create the new dataframe and export it to a WeatherPy_Database.csv. This csv file contains the information needed to create the travel destinations map. 
 
-![WeatherPy_Database.csv](https://github.com/Dainita/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
+![WeatherPy_Database.csv](https://github.com/Dainita/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Database.csv)
 
 ### Analysis of Travel Destinations Map
 WeatherPy_Database.csv was read into the file and the loc method was used to retrieve the city data for the corresponding coordinates.  A new dataframe was created to hold the hotel names and a for loop was used to iterate through the data to matche the hotels with the city and coordinate data. An info box template was used to select the desired format of map markers and a marker layer map with a pop-up marker for each city was created.
